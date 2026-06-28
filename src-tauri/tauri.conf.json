@@ -1,0 +1,28 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "fullscreen": false,
+        "resizable": true,
+        "title": "🍅 Pomodoro Screen",
+        "width": 800,
+        "height": 900,
+        "minWidth": 400,
+        "minHeight": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "package": {
+    "productName": "Pomodoro Screen",
+    "version": "0.0.1"
+  }
+}
